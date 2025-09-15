@@ -7,7 +7,8 @@ Teacher: Jan Schaumann
 
 ## UNIX Basics: OS Design
 
-![image](../Images/Screenshot 2025-09-14 at 5.08.06 PM.png)
+![image](../Images/Screenshot%202025-09-14%20at%205.08.06%20PM.png)
+
 The basic design of the Unix operating system can be
 visualized somewhat like this:
 1. At the core sits a **monolithic OS kernel**, which does all the heavy lifting: it initializes and controls the (physical or virtual) hardware, it manages memory, performs task scheduling, handles the filesystem, and interprocess communications etc.
@@ -74,7 +75,7 @@ UNIX Programs
 
 ## UNIX Pipes
 
-![image](../Images/Screenshot 2025-09-14 at 8.21.28 PM.png)
+![image](../Images/Screenshot%202025-09-14%20at%208.21.28%20PM.png)
 
 ## Files and Directories
 
