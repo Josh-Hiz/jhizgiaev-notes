@@ -26,3 +26,5 @@ Important take-away:
 - Buffer vs. byte-by-byte?
     - Use buffered I/O to cut syscall overhead and handle partial reads/writes efficiently.
     - Go unbuffered only for strict low-latency/streaming needs or trivial one-offs where simplicity matters.
+- For the HW01, if we get points off on first try we do have an opportunity to resubmit
+- Make sure to read the styling guide and follow it as close as possible
