@@ -4,17 +4,11 @@ Lecture 01
 Before class:
 -------------
 - I read the course website and syllabus.
-- I watched all course lecture videos for week 01, 
-  segment 1 Introduction, segment 2 UNIX History, 
-  and segment 3 UNIX basics.
+- I watched all course lecture videos for week 01, segment 1 Introduction, segment 2 UNIX History, and segment 3 UNIX basics.
 - I took markdown notes for each video available in the `md/` folder in this git repo
-
-- To practice my C, I wrote another version of simple shell,
-  simple-shell3.c, that now has a tokenizer that allows users to now
-  execute programs with a variable number of parameters (I.e "ls -a", "cat test.txt", etc)
-
-- I aliased the "cc" command and created a CFLAGS environment variable
-  within my NetBSD VM. Now "cc" will execute "cc -Wall -Werror -Wextra
+- I did week 01 checkpoint before class
+- To practice my C, I wrote another version of simple shell, simple-shell3.c, that now has a tokenizer that allows users to now execute programs with a variable number of parameters (I.e "ls -a", "cat test.txt", etc)
+- I aliased the "cc" command and created a CFLAGS environment variable within my NetBSD VM. Now "cc" will execute "cc -Wall -Werror -Wextra
 
 - Open questions:
 

@@ -9,12 +9,20 @@ Before class:
 - I ran all the example files given for week 02
 - I took markdown notes for each video available in the `md/` folder in this git repo
 - I did week 02 checkpoint before class
+- I wrote a few test programs that would read files both using a buffer and byte by byte and then write them to another file, when the amount of bytes written exceeded a certain length, I used lseek to reset the position to write to be the beginning of the file again.
 
 - Open questions:
 
-None
+1. What is the point of lseek? When would we ever use it?
+2. Is there any reason we would not use a buffer to read or write a file rather than byte-by-byte?
 
 After class:
 ------------
 Important take-away:
-
+- First HW01 is due 2025-09-22 4PM before class
+- lseek(2) — why/when?
+    - Jump to or overwrite at specific offsets (headers, records, patching bytes, sparse holes past EOF).
+    - Not for non-seekable FDs (pipes/TTYs); use O_APPEND for safe concurrent appends.
+- Buffer vs. byte-by-byte?
+    - Use buffered I/O to cut syscall overhead and handle partial reads/writes efficiently.
+    - Go unbuffered only for strict low-latency/streaming needs or trivial one-offs where simplicity matters.
