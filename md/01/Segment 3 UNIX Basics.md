@@ -1,8 +1,11 @@
 # Segment 3 UNIX Basics
 
-Class: [[CS631]]
+Class: CS631
+
 Subject: # Advanced Programming in the UNIX Environment
+
 Date: 2025-09-08
+
 Teacher: Jan Schaumann
 
 ## UNIX Basics: OS Design

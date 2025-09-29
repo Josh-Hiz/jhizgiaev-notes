@@ -1,8 +1,11 @@
 # Week 01 Checkpoint
 
-Class: [[CS631]]
+Class: CS631
+
 Subject: # Advanced Programming in the UNIX Environment
+
 Date: 2025-09-13
+
 Teacher: Jan Schaumann
 
 1. Briefly describe your experience level using Unix-like OS.

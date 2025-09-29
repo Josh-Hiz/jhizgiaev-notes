@@ -1,0 +1,19 @@
+Lecture 02
+==========
+
+Before class:
+-------------
+- I watched all course lecture videos for week 02,
+  segment 1 File Descriptors, segment 2 open(2)/close(2),
+  segment 3 read(2)/write(2)/lseek(2), and segment 4 file sharing.
+- I ran all the example files given for week 03
+- I took markdown notes for each video available in the `md/` folder in this git repo
+- I did week 02 checkpoint before class
+
+
+- Open questions:
+
+
+After class:
+------------
+Important take-away:
